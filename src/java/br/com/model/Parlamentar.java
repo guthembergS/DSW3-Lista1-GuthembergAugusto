@@ -7,7 +7,7 @@ package br.com.model;
 public class Parlamentar {
     public int codigo;
     public String nome;
-    public String federecao;
+    public String federacao;
     public String partido;
     public String voto;
     
@@ -19,13 +19,35 @@ public class Parlamentar {
         this.codigo = codigo;
     }
     
-     public int getNome() {
-        return codigo;
+    public String getNome() {
+        return nome;
     }
 
     public void setNome(String nome) {
         this.nome = nome;
     }
     
+    public String getFederacao() {
+        return nome;
+    }
+
+    public void setFederacao(String federacao) {
+        this.federacao = federacao;
+    }
     
+    public String getPartido() {
+        return partido;
+    }
+
+    public void setPartido(String partido) {
+        this.partido = partido;
+    }
+    
+    public String getvoto() {
+        return voto;
+    }
+
+    public void setVoto(String voto) {
+        this.voto = voto;
+    }
 }

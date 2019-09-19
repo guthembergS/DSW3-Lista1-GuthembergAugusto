@@ -1,38 +1,39 @@
 package repositorio;
 
+import br.com.model.Parlamentar;
 import java.util.ArrayList;
 import java.util.Collection;
 
 public class RepositorioParlamentarsCollection {
 
-    private Collection<Funcionario> repositorio = new ArrayList<Funcionario>();
+    private Collection<Parlamentar> repositorio = new ArrayList<Parlamentar>();
     private static int id = 0;
 
-    public void inserir(Funcionario func) {
-        func.setCodigo(id++);
-        repositorio.add(func);
+    public void inserir(Parlamentar par) {
+        par.setCodigo(id++);
+        repositorio.add(par);
     }
 
-    public void remover(Funcionario func) {
-        repositorio.remove(func);
+    public void remover(Parlamentar par) {
+        repositorio.remove(par);
     }
 
-    public void alterar(Funcionario func) {
-        Funcionario f = this.procurarPorCodigo(func.getCodigo());
-        repositorio.remove(f);
-        repositorio.add(func);
+    public void alterar(Parlamentar par) {
+        Parlamentar p = this.procurarPorCodigo(par.getCodigo());
+        repositorio.remove(p);
+        repositorio.add(par);
     }
 
-    public Funcionario procurarPorCodigo(int codigo) {
-        for (Funcionario func : repositorio) {
-            if (func.getCodigo() == codigo) {
-                return func;
+    public Parlamentar procurarPorCodigo(int codigo) {
+        for (Parlamentar par : repositorio) {
+            if (par.getCodigo() == codigo) {
+                return par;
             }
         }
         return null;
     }
 
-    public Collection<Funcionario> listarTodos() {
+    public Collection<Parlamentar> listarTodos() {
         return repositorio;
     }
 }

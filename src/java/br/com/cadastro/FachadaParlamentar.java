@@ -2,19 +2,20 @@ package br.com.cadastro;
 
 import br.com.model.Parlamentar;
 import java.util.Collection;
+import repositorio.RepositorioParlamentarsCollection;
 //import repositorio.RepositorioFuncionariosCollection;
 
 public class FachadaParlamentar {
 
     private static FachadaParlamentar fachada;
-    private RepositorioFuncionariosCollection repositorio;
+    private RepositorioParlamentarsCollection repositorio;
 
     static {
         fachada = new FachadaParlamentar();
     }
 
     private FachadaParlamentar() {
-        repositorio = new RepositorioFuncionariosCollection();
+        repositorio = new RepositorioParlamentarsCollection();
     }
 
     public static FachadaParlamentar getInstance() {
