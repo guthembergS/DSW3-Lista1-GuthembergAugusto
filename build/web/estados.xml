@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<estado id="ro" name="Rondônia"></estado>
+	<estado id="ac" name="Acre"></estado>
+	<estado id="am" name="Amazonas"></estado>
+	<estado id="rr" name="Roraima"></estado>
+	<estado id="pa" name="Pará"></estado>
+	<estado id="ap" name="Amapá"></estado>
+	<estado id="to" name="Tocantins"></estado>
+	<estado id="ma" name="Maranhão"></estado>
+	<estado id="pi" name="Piauí"></estado>
+	<estado id="ce" name="Ceará"></estado>
+	<estado id="rn" name="Rio Grande do Norte"></estado>
+	<estado id="pb" name="Paraíba"></estado>
+	<estado id="pe" name="Pernambuco"></estado>
+	<estado id="al" name="Alagoas"></estado>
+	<estado id="se" name="Sergipe"></estado>
+	<estado id="ba" name="Bahia"></estado>
+	<estado id="mg" name="Minas Gerais"></estado>
+	<estado id="es" name="Espírito Santo"></estado>
+	<estado id="rj" name="Rio de Janeiro"></estado>
+	<estado id="sp" name="São Paulo"></estado>
+	<estado id="pr" name="Paraná"></estado>
+	<estado id="sc" name="Santa Catarina"></estado>
+	<estado id="rs" name="Rio Grande do Sul"></estado>
+	<estado id="ms" name="Mato Grosso do Sul"></estado>
+	<estado id="mt" name="Mato Grosso"></estado>
+	<estado id="go" name="Goiás"></estado>
+	<estado id="df" name="Distrito Federal"></estado>
+</root>
