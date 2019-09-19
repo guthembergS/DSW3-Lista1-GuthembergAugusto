@@ -11,6 +11,13 @@ public class Parlamentar {
     public String partido;
     public String voto;
     
+    public Parlamentar(String nome,String federacao,String partido,String voto){
+        this.setNome(nome);
+        this.setFederacao(federacao);
+        this.setPartido(partido);
+        this.setVoto(voto);
+    }
+    
      public int getCodigo() {
         return codigo;
     }
