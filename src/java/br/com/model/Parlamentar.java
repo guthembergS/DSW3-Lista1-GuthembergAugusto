@@ -18,6 +18,10 @@ public class Parlamentar {
         this.setVoto(voto);
     }
     
+    public Parlamentar(String nome){
+        this.setNome(nome);
+    }
+    
      public int getCodigo() {
         return codigo;
     }

@@ -11,6 +11,7 @@ public class RepositorioParlamentarsCollection {
 
     public void inserir(Parlamentar par) {
         par.setCodigo(id++);
+        par.setNome(par.nome);
         repositorio.add(par);
     }
 

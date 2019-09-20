@@ -8,6 +8,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <script type="text/javascript" src="index.js"></script>
+        <link rel="stylesheet" type="text/css" href="index.css" />
         <title>JSP Page</title>
     </head>
     <body>
@@ -15,26 +16,28 @@
         <table id="lista">
             <thead>
                 <tr>
+                    <th><img id="inserir" src="imgs/inserir.png" alt="Inserir Parlamentar" /></th>
+                    
                     <th>Nome</th>
-                    <th>Unidade Federativa</th>
-                    <th>Partido</th>
-                    <th>
-                       <button>novo</button> 
-                    </th>
+                    
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <th>Geraldo</th>
-                    <th>PE</th>
-                    <th>PSB</th>
-                    <th>
-                        <button>alterar</button>
-                        <button>excluir </button>
-                    </th>
-                </tr>
-            </tbody>
+            <tbody></tbody>
         </table>
+         <form action="ServletCadastro" method="post" id="form">
+            <input type="hidden" name="codigo" value="" />
+            <fieldset id="formulario"><legend>Dados</legend>
+                <table>
+                    <tr>
+                        <th>Nome:</th>
+                        <td><input type="text" name="nome" /></td>
+                    </tr>
+                     <tr>
+                        <td colspan="2"><input type="submit" value="Inserir" name="submeter" /></td>
+                    </tr>
+                </table>
+            </fieldset>
+         </form>
         
     </body>
 </html>
