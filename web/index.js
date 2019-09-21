@@ -75,7 +75,7 @@ function mostrarInserir() {
 
 function submeter() {
     xhr.onreadystatechange = tratarColecao;
-    var form = document.getElementById("form");
+    var form = document.getElementById("formulario");
     var formData = new FormData(form);
     if (form.submeter.value === "Alterar") {
         xhr.open("post", "ServletAlteracao", true);

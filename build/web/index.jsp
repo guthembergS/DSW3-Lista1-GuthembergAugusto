@@ -1,12 +1,7 @@
-<%-- 
-    Document   : index
-    Created on : 18/09/2019, 19:13:56
-    Author     : guto
---%>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8" />
         <script type="text/javascript" src="index.js"></script>
         <link rel="stylesheet" type="text/css" href="index.css" />
         <title>JSP Page</title>
